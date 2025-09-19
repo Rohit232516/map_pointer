@@ -16,7 +16,7 @@ function App() {
   const [markers, setMarkers] = useState([]);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyBVFd5hkH3OnkuFGN2s0VuOzUYz9g1JPOM', // replace with your API key
+    googleMapsApiKey: 'use_your_key', // replace with your API key
     libraries: ['places']
   });
 
